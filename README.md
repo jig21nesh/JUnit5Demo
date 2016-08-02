@@ -5,6 +5,7 @@
 ## Getting Started
     Project was created 
         IntelliJ 2016.2
+        Java 8!!
         
 ## Prerequisities
     There are a number of artciles and examples are available (most of them are not up to date!). Mainly because JUnit 5 itself is being worked 
@@ -17,6 +18,10 @@
     * http://blog.codefx.org/libraries/junit-5-setup/
     * https://mvnrepository.com/artifact/org.junit
     * https://github.com/junit-team/junit5-samples/tree/master/junit5-maven-consumer
+    * https://www.infoq.com/articles/JUnit-5-Early-Test-Drive
+    * https://github.com/eugenp/tutorials/tree/master/junit5/src/test/java/com/baeldung
     
     It would be worth to read or glance at pom.xml
     
+## Comments
+    Complied the list of tests and examples from above mentioned resources!!
