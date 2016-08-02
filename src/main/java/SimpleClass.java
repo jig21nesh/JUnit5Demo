@@ -3,7 +3,7 @@
  */
 public class SimpleClass {
     public static void main(String[] args) {
-
+        System.out.println(System.getenv("ENV"));
     }
 
     public int add(Integer... listOfNumbers){
@@ -15,5 +15,19 @@ public class SimpleClass {
             total += integer;
         }
         return total;
+    }
+
+    public int[] getGroupOfNumbers(){
+        int[] numbers = {0, 1, 2, 3, 4};
+        return numbers;
+    }
+
+    //Mock methods to get an environment
+    public static String getCIDev(){
+        return "CI";
+    }
+
+    public static String getDevEnv(){
+        return "DEV";
     }
 }
